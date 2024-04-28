@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Garden Care Services</title>
+<style>
+  body {
+    font-family: 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e2f9e1;
+  }
+  .container {
+    width: 85%;
+    margin: auto;
+    overflow: hidden;
+  }
+  header {
+    background: #2e8b57;
+    color: white;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #30a14e 3px solid;
+  }
+  header a {
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+  }
+  header ul {
+    padding: 0;
+    list-style: none;
+  }
+  header li {
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+  }
+  header #branding {
+    float: left;
+  }
+  header #branding h1 {
+    margin: 0;
+  }
+  header nav {
+    float: right;
+    margin-top: 10px;
+  }
+  header .highlight, header .current a {
+    color: #98fb98;
+    font-weight: bold;
+  }
+  header a:hover {
+    color: #ffffff;
+    font-weight: bold;
+  }
+  footer {
+    background: #2e8b57;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+  }
+</style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div id="branding">
+        <h1><span class="highlight">Green</span> Thumb</h1>
+      </div>
+      <nav>
+        <ul>
+          <li class="current"><a href="index.html">Home</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <div class="container">
+    <section id="showcase">
+      <h1>Welcome to Green Thumb Gardening</h1>
+      <p>Experience the joy of a beautiful garden without the hassle. Our expert team provides top-notch gardening services to bring your green space to life.</p>
+    </section>
+    <section id="boxes">
+      <div class="box">
+        <h3>Lawn Care</h3>
+        <p>Professional lawn maintenance services to keep your grass green, lush, and healthy.</p>
+      </div>
+      <div class="box">
+        <h3>Planting & Design</h3>
+        <p>Custom garden designs and planting services tailored to your preferences and space.</p>
+      </div>
+      <div class="box">
+        <h3>Garden Maintenance</h3>
+        <p>Regular upkeep and care for your garden to ensure it stays vibrant and beautiful all year round.</p>
+      </div>
+    </section>
+  </div>
+  <footer>
+    <p>Copyright © 2024 Green Thumb Gardening, All rights reserved.</p>
+  </footer>
+</body>
+</html>
